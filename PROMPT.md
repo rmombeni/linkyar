@@ -68,7 +68,9 @@ includes/
   class-i18n.php        — textdomain load
 admin/
   js/admin.js           — suggestions meta box + autolink rules CRUD + report scanner
-  css/admin.css         — RTL-friendly admin styles
+  css/admin.css         — RTL-friendly admin styles, WP-admin default font only
+includes/
+  class-jalali.php      — Jalali date helper: uses wp-parsidate's parsidate() when active, else date_i18n() fallback (used for «آخرین بررسی» and dashboard dates)
 languages/
   linkyar.pot
   linkyar-fa_IR.po   — with translated Persian strings
@@ -89,13 +91,19 @@ languages/
 - Scan completes in batches, report table filters work.
 - phpcs clean (WordPress-Core) — run `phpcs --standard=WordPress-Core` if available.
 - No PHP notices/warnings on a debug site (WP_DEBUG true).
+- With WP-Parsidate active: admin dates are Jalali (۴ آبان ۱۴۰۵), layout stays RTL, no font conflicts, no CSS/JS enqueues outside plugin pages.
+- Plugin works correctly with WP-Parsidate BOTH active and inactive (graceful fallback).
 
 ## UI/UX REQUIREMENTS — modern, polished, user-friendly (non-negotiable)
 
 This plugin must feel like a premium, modern SaaS product — not a typical cluttered WP admin plugin. Design language: clean, airy, rounded, teal brand (#0e7490 primary, #14b8a6 accent, #0f172a dark slate text, #f8fafc background, #f1f5f9 cards, #ef4444 danger, #10b981 success, #f59e0b warning). Light theme only. Subtle shadows (0 1px 3px rgba(0,0,0,0.08)), 8px corner radius base, generous whitespace, 14px base font.
 
-### Font & RTL
-- Load Vazirmatn font (CDN with local fallback) for ALL plugin admin pages; set as font-family on plugin root. Persian-first: every string Persian, RTL-aware spacing, numbers in Persian where natural (۴, ۶) but keep technical values Latin where standard (URLs, versions).
+### Font & RTL — MUST harmonize with WP-Parsidate (فارسیساز)
+- **Do NOT load any custom font.** Use the WordPress admin dashboard's default font stack as-is (body font). The site may run wp-parsidate (https://fa.wordpress.org/plugins/wp-parsidate/) which controls Persian font + RTL + Jalali dates in the admin; this plugin must blend in seamlessly and never override, enqueue, or fight that font/RTL.
+- Compatibility target (tested with): **WP-Parsidate (فارسیساز)** active — dates must render in **Jalali (شمسی)** using wp-parsidate's Persian date functions when available (e.g. its parsidate() / jdate helpers), with a graceful fallback to WordPress' date_i18n() when the plugin is not active.
+- All dates shown anywhere (last scan, report rows "آخرین بررسی", KPI labels) MUST be Jalali when wp-parsidate is active, formatted like «۴ آبان ۱۴۰۵» (or with year ۱۴۰۵), never Gregorian.
+- RTL: rely on the admin's existing dir=rtl (WP sets it automatically for fa_IR, and wp-parsidate reinforces it). All layouts must be RTL-first (right-aligned headers, slide-in panel from the LEFT edge since RTL flips, logical CSS properties preferred).
+- Numbers: Persian numerals for human-facing values (۴، ۶) where natural; keep technical values Latin where standard (URLs, versions, HTTP codes).
 - Icons: use Dashicons (WP core) — no external icon fonts.
 
 ### Onboarding wizard (first-run)

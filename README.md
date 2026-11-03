@@ -1,4 +1,4 @@
-# پیوندیار (PayvandYar)
+# لینکیار (LinkYar)
 
 افزونه‌ی لینک‌سازی داخلی وردپرس — Persian internal-linking assistant plugin for WordPress.
 
@@ -15,6 +15,6 @@
 
 Tell your coding agent (OpenCode, Claude Code, Codex):
 
-> Read the build spec at https://github.com/rmombeni/payvandyar/blob/main/PROMPT.md
+> Read the build spec at https://github.com/rmombeni/linkyar/blob/main/PROMPT.md
 > and implement the plugin in the current (empty) folder, exactly per that spec.
 

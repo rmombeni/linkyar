@@ -89,3 +89,51 @@ languages/
 - Scan completes in batches, report table filters work.
 - phpcs clean (WordPress-Core) — run `phpcs --standard=WordPress-Core` if available.
 - No PHP notices/warnings on a debug site (WP_DEBUG true).
+
+## UI/UX REQUIREMENTS — modern, polished, user-friendly (non-negotiable)
+
+This plugin must feel like a premium, modern SaaS product — not a typical cluttered WP admin plugin. Design language: clean, airy, rounded, teal brand (#0e7490 primary, #14b8a6 accent, #0f172a dark slate text, #f8fafc background, #f1f5f9 cards, #ef4444 danger, #10b981 success, #f59e0b warning). Light theme only. Subtle shadows (0 1px 3px rgba(0,0,0,0.08)), 8px corner radius base, generous whitespace, 14px base font.
+
+### Font & RTL
+- Load Vazirmatn font (CDN with local fallback) for ALL plugin admin pages; set as font-family on plugin root. Persian-first: every string Persian, RTL-aware spacing, numbers in Persian where natural (۴, ۶) but keep technical values Latin where standard (URLs, versions).
+- Icons: use Dashicons (WP core) — no external icon fonts.
+
+### Onboarding wizard (first-run)
+- On first activation, show a 3-step wizard (welcome → pick post types → create first autolink rule) with progress dots, back/next buttons, skip button. Dismissible; re-openable from dashboard. Wizard stores option linkyar_onboarded.
+
+### Dashboard page (plugin home)
+- KPI cards row (4): تعداد پستهای دارای لینک داخلی، تعداد لینک داخلی فعال، لینکهای خراب، قوانین اتولینک فعال.
+- Quick actions: شروع اسکن لینکها، افزودن قانون، ساخت پیشنهاد جدید.
+- Mini list: ۵ پست بدون لینک داخلی (weakest pages) + ۵ لینک خراب اخیر.
+- Status panel: آخرین اسکن، وضعیت اتولینک (فعال/غیرفعال toggle)، نسخه افزونه.
+
+### Every screen must have
+- Page header with icon + title + one-line description + primary CTA button.
+- Empty states (illustration-ish icon + title + hint + CTA button) — never a bare table.
+- Loading states (skeleton rows or spinner with "در حال بارگذاری…").
+- Success/error toasts (top-right, auto-dismiss 4s, teal for success, red for error) via a tiny vanilla JS toast system.
+- Confirm dialogs for destructive actions (حذف قانون؟) using a custom modal (not window.confirm).
+- Inline help: small "؟" tooltip (title attr or custom popover) explaining each setting.
+- All buttons/inputs large enough for touch (min 36px height), clear labels, placeholder examples like «مثال: افزونه وردپرس».
+
+### Editor meta box (Feature 1) UX
+- Box with header row (title + refresh icon), search field to filter suggestions, list items with: post title, matched keywords as small chips, hover reveal two icon buttons (درج لینک / کپی لینک). Show "در حال جستجو…" skeleton while loading; empty state "پستی مرتبط پیدا نشد". Max height with internal scroll.
+- Inserted link uses a nice anchor text (the post title) and adds it as a new paragraph at the end; toast confirms "لینک اضافه شد".
+
+### Rules table (Feature 2) UX
+- Table with row actions on hover (ویرایش / غیرفعالسازی / حذف). Add-rule form in a slide-in panel (right side, RTL aware) or modal — never a separate page. Form fields with labels, placeholders, and live keyword preview (shows how the keyword will appear). Toggle switches (styled checkboxes) for booleans.
+- Inline validation: red border + message on error (keyword empty, target not selected).
+
+### Report page (Feature 3) UX
+- Big "شروع اسکن" button; while scanning show animated progress bar with percentage and "در حال بررسی ۴۵ از ۱۲۰…"; disable button during scan.
+- Results as filterable tabs with counts badges (همه / خراب / ریدایرکت); table rows: status pill (سبز=سالم، قرمز=خراب، زرد=ریدایرکت), URL (monospace, clickable), code badge, sources as links, checked time. "حذف نتیجه" per row + "اسکن مجدد" button.
+
+### Accessibility & mobile
+- WCAG AA contrast; keyboard navigable (tab order, focus rings visible); aria-labels on icon buttons; alt texts. Admin pages usable at 360px width (tables collapse to cards on small screens).
+
+### UX principles to follow
+- Never show raw PHP errors to users; wrap in friendly messages.
+- One primary action per screen; secondary actions less prominent.
+- Consistent terminology: «قانون»، «کلیدواژه»، «صفحهٔ هدف»، «اسکن»، «لینک شکسته».
+- Every destructive/expensive action needs confirmation; every long task needs progress feedback.
+- Settings save via Settings API with "ذخیره تغییرات" button + toast; auto-reload where needed.

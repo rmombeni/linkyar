@@ -579,7 +579,7 @@ class Linkyar_Autolink {
 		$content   = preg_replace_callback(
 			'#<(pre|code|script|style)\b[^>]*>.*?</\1>#is',
 			static function ( $m ) use ( &$protected ) {
-				$key = "\x00LINKYAR_PROT" . count( $protected ) . "\x00";
+				$key = "LINKYAR_PROT_PLACEHOLDER_" . count( $protected ) . "_END";
 				$protected[ $key ] = $m[0];
 
 				return $key;

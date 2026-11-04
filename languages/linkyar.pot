@@ -1,0 +1,747 @@
+# Copyright (C) 2026 LinkYar
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: LinkYar 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/rmombeni/linkyar/issues\n"
+"POT-Creation-Date: 2026-11-04 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LinkYar build script\n"
+"X-Domain: linkyar\n"
+#: includes/class-jalali.php:87
+msgid "%s دقیقه پیش"
+msgid_plural "%s دقیقه پیش"
+msgstr[0] ""
+
+#: includes/class-jalali.php:95
+msgid "%s روز پیش"
+msgid_plural "%s روز پیش"
+msgstr[0] ""
+
+#: includes/class-jalali.php:91
+msgid "%s ساعت پیش"
+msgid_plural "%s ساعت پیش"
+msgstr[0] ""
+
+#: includes/class-dashboard.php:240
+msgid "آخرین اسکن"
+msgstr ""
+
+#: includes/class-report.php:555
+msgid "آخرین اسکن: %s"
+msgstr ""
+
+#: includes/class-report.php:608
+#: includes/class-report.php:659
+msgid "آخرین بررسی"
+msgstr ""
+
+#: includes/class-dashboard.php:380
+msgid "آدرس صفحهٔ هدف"
+msgstr ""
+
+#: includes/class-plugin.php:110
+#: includes/class-plugin.php:111
+msgid "اتولینک"
+msgstr ""
+
+#: includes/class-settings.php:348
+msgid "اتولینک روی پست‌های این دسته‌ها اعمال نمی‌شود."
+msgstr ""
+
+#: includes/class-assets.php:134
+#: includes/class-dashboard.php:309
+msgid "اتولینک غیرفعال شد"
+msgstr ""
+
+#: includes/class-autolink.php:216
+msgid "اتولینک فعال"
+msgstr ""
+
+#: includes/class-assets.php:133
+#: includes/class-dashboard.php:308
+msgid "اتولینک فعال شد"
+msgstr ""
+
+#: includes/class-dashboard.php:351
+msgid "از داشبورد شروع کنید و لینک‌های سایت را اسکن کنید"
+msgstr ""
+
+#: includes/class-assets.php:130
+#: includes/class-report.php:533
+msgid "اسکن مجدد"
+msgstr ""
+
+#: includes/class-assets.php:129
+#: includes/class-report.php:298
+msgid "اسکن کامل شد"
+msgstr ""
+
+#: includes/class-report.php:117
+#: includes/class-report.php:182
+#: includes/class-report.php:260
+msgid "اسکنی در جریان نیست."
+msgstr ""
+
+#: includes/class-autolink.php:193
+#: includes/class-autolink.php:238
+#: includes/class-autolink.php:268
+#: includes/class-dashboard.php:274
+msgid "افزودن قانون"
+msgstr ""
+
+#: includes/class-assets.php:125
+#: includes/class-autolink.php:342
+msgid "انصراف"
+msgstr ""
+
+#: includes/class-dashboard.php:372
+msgid "اولین قانون اتولینک"
+msgstr ""
+
+#: includes/class-dashboard.php:350
+msgid "اولین قانون اتولینک خود را بسازید (اختیاری)"
+msgstr ""
+
+#: includes/class-autolink.php:237
+msgid "اولین قانون اتولینک را بسازید تا کلیدواژه‌ها خودکار لینک شوند."
+msgstr ""
+
+#: includes/class-dashboard.php:265
+msgid "اکشن‌های سریع"
+msgstr ""
+
+#: includes/class-assets.php:123
+msgid "این نتیجه حذف شود؟"
+msgstr ""
+
+#: includes/class-settings.php:293
+msgid "بازه مجاز: ۵ تا ۱۵"
+msgstr ""
+
+#: includes/class-settings.php:357
+msgid "برای انتخاب چندتایی Ctrl/Cmd را نگه دارید."
+msgstr ""
+
+#: includes/class-autolink.php:269
+msgid "بستن"
+msgstr ""
+
+#: includes/class-assets.php:139
+#: includes/class-dashboard.php:399
+msgid "بعدی"
+msgstr ""
+
+#: includes/class-dashboard.php:346
+msgid "به لینکیار خوش آمدید"
+msgstr ""
+
+#: includes/class-settings.php:289
+msgid "بین ۵ تا ۱۵ پیشنهاد؛ پیش‌فرض ۸ است."
+msgstr ""
+
+#: includes/class-assets.php:124
+msgid "تأیید"
+msgstr ""
+
+#: includes/class-assets.php:117
+#: includes/class-suggestions.php:90
+msgid "تازه‌سازی"
+msgstr ""
+
+#: includes/class-settings.php:288
+msgid "تعداد پیشنهادها"
+msgstr ""
+
+#: includes/class-plugin.php:128
+#: includes/class-plugin.php:129
+#: includes/class-settings.php:322
+msgid "تنظیمات"
+msgstr ""
+
+#: includes/class-autolink.php:248
+#: includes/class-autolink.php:375
+msgid "حداکثر لینک"
+msgstr ""
+
+#: includes/class-autolink.php:304
+#: includes/class-dashboard.php:384
+msgid "حداکثر لینک در هر پست"
+msgstr ""
+
+#: includes/class-autolink.php:222
+msgid "حداکثر پیش‌فرض لینک در هر پست"
+msgstr ""
+
+#: includes/class-autolink.php:392
+msgid "حذف"
+msgstr ""
+
+#: includes/class-assets.php:120
+#: includes/class-autolink.php:489
+#: includes/class-report.php:460
+msgid "حذف شد"
+msgstr ""
+
+#: includes/class-assets.php:131
+#: includes/class-report.php:664
+msgid "حذف نتیجه"
+msgstr ""
+
+#: includes/class-autolink.php:320
+msgid "حساس به حروف (انگلیسی)"
+msgstr ""
+
+#: includes/class-report.php:590
+#: includes/class-report.php:618
+msgid "خراب"
+msgstr ""
+
+#: includes/class-report.php:620
+msgid "خطا"
+msgstr ""
+
+#: includes/class-assets.php:121
+msgid "خطایی رخ داد. دوباره تلاش کنید."
+msgstr ""
+
+#: includes/class-plugin.php:92
+#: includes/class-plugin.php:93
+msgid "داشبورد"
+msgstr ""
+
+#: includes/class-dashboard.php:146
+msgid "داشبورد لینکیار"
+msgstr ""
+
+#: includes/class-report.php:621
+msgid "در انتظار"
+msgstr ""
+
+#: includes/class-settings.php:332
+msgid "در این نوع‌ها هیچ پیشنهاد یا اتولینکی اعمال نمی‌شود."
+msgstr ""
+
+#: includes/class-assets.php:111
+#: includes/class-report.php:564
+msgid "در حال بارگذاری…"
+msgstr ""
+
+#: includes/class-assets.php:127
+#: includes/class-report.php:311
+msgid "در حال بررسی %1$s از %2$s…"
+msgstr ""
+
+#: includes/class-assets.php:112
+msgid "در حال جستجو…"
+msgstr ""
+
+#: includes/class-assets.php:128
+#: includes/class-report.php:164
+#: includes/class-report.php:244
+msgid "در حال جمع‌آوری لینک‌ها…"
+msgstr ""
+
+#: includes/class-assets.php:114
+msgid "درج لینک"
+msgstr ""
+
+#: includes/class-report.php:128
+msgid "درخواست نامعتبر."
+msgstr ""
+
+#: includes/class-autolink.php:412
+#: includes/class-autolink.php:469
+#: includes/class-autolink.php:499
+#: includes/class-dashboard.php:297
+#: includes/class-dashboard.php:424
+#: includes/class-report.php:106
+#: includes/class-report.php:447
+#: includes/class-report.php:470
+#: includes/class-suggestions.php:112
+msgid "دسترسی غیرمجاز."
+msgstr ""
+
+#: includes/class-autolink.php:332
+#: includes/class-settings.php:347
+msgid "دسته‌های مستثنی"
+msgstr ""
+
+#: includes/class-autolink.php:227
+#: includes/class-settings.php:297
+#: includes/class-settings.php:374
+msgid "ذخیره تغییرات"
+msgstr ""
+
+#: includes/class-assets.php:119
+#: includes/class-autolink.php:525
+msgid "ذخیره شد"
+msgstr ""
+
+#: includes/class-autolink.php:345
+msgid "ذخیره قانون"
+msgstr ""
+
+#: includes/class-plugin.php:233
+msgid "راهنما"
+msgstr ""
+
+#: includes/class-plugin.php:138
+#: includes/class-plugin.php:139
+msgid "راه‌اندازی"
+msgstr ""
+
+#: includes/class-dashboard.php:282
+msgid "راه‌اندازی دوباره"
+msgstr ""
+
+#: includes/class-assets.php:137
+#: includes/class-dashboard.php:474
+msgid "راه‌اندازی کامل شد"
+msgstr ""
+
+#: includes/class-assets.php:138
+#: includes/class-dashboard.php:396
+msgid "رد شدن"
+msgstr ""
+
+#: includes/class-report.php:578
+msgid "روی «شروع اسکن» بزنید تا لینک‌های داخلی سایت بررسی شوند."
+msgstr ""
+
+#: includes/class-autolink.php:338
+msgid "روی پست‌های این دسته‌ها اعمال نمی‌شود."
+msgstr ""
+
+#: includes/class-report.php:594
+#: includes/class-report.php:619
+msgid "ریدایرکت"
+msgstr ""
+
+#: includes/class-dashboard.php:278
+msgid "ساخت پیشنهاد جدید"
+msgstr ""
+
+#: includes/class-report.php:617
+msgid "سالم"
+msgstr ""
+
+#: includes/class-settings.php:362
+msgid "سطح دسترسی مدیریت"
+msgstr ""
+
+#: includes/class-assets.php:126
+#: includes/class-report.php:533
+#: includes/class-report.php:579
+msgid "شروع اسکن"
+msgstr ""
+
+#: includes/class-dashboard.php:131
+#: includes/class-dashboard.php:270
+msgid "شروع اسکن لینک‌ها"
+msgstr ""
+
+#: includes/class-dashboard.php:136
+msgid "شروع راه‌اندازی"
+msgstr ""
+
+#: includes/class-autolink.php:173
+#: includes/class-dashboard.php:119
+#: includes/class-dashboard.php:323
+#: includes/class-report.php:494
+#: includes/class-settings.php:258
+#: includes/class-settings.php:309
+msgid "شما دسترسی لازم را ندارید."
+msgstr ""
+
+#: includes/class-autolink.php:247
+#: includes/class-autolink.php:288
+#: includes/class-autolink.php:370
+msgid "صفحهٔ هدف"
+msgstr ""
+
+#: includes/class-assets.php:136
+#: includes/class-autolink.php:122
+#: includes/class-autolink.php:126
+#: includes/class-autolink.php:300
+msgid "صفحهٔ هدف را انتخاب کنید"
+msgstr ""
+
+#: includes/class-autolink.php:250
+#: includes/class-autolink.php:385
+#: includes/class-report.php:609
+#: includes/class-report.php:662
+msgid "عملیات"
+msgstr ""
+
+#: includes/class-autolink.php:382
+#: includes/class-dashboard.php:251
+msgid "غیرفعال"
+msgstr ""
+
+#: includes/class-autolink.php:382
+#: includes/class-dashboard.php:251
+msgid "فعال"
+msgstr ""
+
+#: includes/class-settings.php:279
+msgid "فعال‌سازی پیشنهاد لینک"
+msgstr ""
+
+#: includes/class-autolink.php:313
+msgid "فقط اولین مورد"
+msgstr ""
+
+#: includes/class-report.php:584
+msgid "فیلتر نتایج"
+msgstr ""
+
+#: includes/class-suggestions.php:89
+msgid "فیلتر پیشنهادها"
+msgstr ""
+
+#: includes/class-suggestions.php:89
+msgid "فیلتر پیشنهادها…"
+msgstr ""
+
+#: includes/class-assets.php:142
+#: includes/class-autolink.php:457
+msgid "قانون اضافه شد"
+msgstr ""
+
+#: includes/class-assets.php:143
+#: includes/class-autolink.php:457
+msgid "قانون به‌روزرسانی شد"
+msgstr ""
+
+#: includes/class-assets.php:122
+msgid "قانون حذف شود؟"
+msgstr ""
+
+#: includes/class-autolink.php:327
+msgid "قانون فعال"
+msgstr ""
+
+#: includes/class-autolink.php:431
+#: includes/class-autolink.php:484
+#: includes/class-autolink.php:517
+msgid "قانون پیدا نشد."
+msgstr ""
+
+#: includes/class-assets.php:140
+#: includes/class-dashboard.php:393
+msgid "قبلی"
+msgstr ""
+
+#: includes/class-autolink.php:202
+msgid "قوانین اتولینک"
+msgstr ""
+
+#: includes/class-dashboard.php:179
+msgid "قوانین اتولینک فعال"
+msgstr ""
+
+#: includes/class-report.php:604
+#: includes/class-report.php:632
+msgid "لینک"
+msgstr ""
+
+#: includes/class-assets.php:118
+msgid "لینک اضافه شد"
+msgstr ""
+
+#: includes/class-dashboard.php:214
+msgid "لینک خرابی پیدا نشد — یا هنوز اسکنی انجام نشده است."
+msgstr ""
+
+#: includes/class-assets.php:116
+msgid "لینک کپی شد"
+msgstr ""
+
+#: includes/class-plugin.php:81
+#: includes/class-plugin.php:82
+msgid "لینکیار"
+msgstr ""
+
+#: includes/class-dashboard.php:347
+msgid "لینکیار به شما کمک می‌کند لینک‌سازی داخلی سایت‌تان را سریع‌تر، هوشمندتر و سالم‌تر کنید. سه مرحلهٔ کوتاه تا شروع:"
+msgstr ""
+
+#: includes/class-dashboard.php:172
+msgid "لینک‌های خراب"
+msgstr ""
+
+#: includes/class-dashboard.php:211
+msgid "لینک‌های خراب اخیر"
+msgstr ""
+
+#: includes/class-dashboard.php:165
+msgid "لینک‌های داخلی سالم"
+msgstr ""
+
+#: includes/class-report.php:544
+msgid "لینک‌های داخلی سایت را اسکن کنید و لینک‌های خراب یا ریدایرکت‌شده را پیدا کنید."
+msgstr ""
+
+#: includes/class-settings.php:280
+msgid "متا باکس «پیشنهادهای لینک داخلی» را در صفحهٔ ویرایش پست نمایش می‌دهد."
+msgstr ""
+
+#: includes/class-dashboard.php:377
+msgid "مثال: افزونه وردپرس, سئو"
+msgstr ""
+
+#: includes/class-autolink.php:279
+msgid "مثال: افزونه وردپرس, سئوی سایت"
+msgstr ""
+
+#: includes/class-dashboard.php:373
+msgid "مثلاً وقتی کاربر «افزونه وردپرس» را نوشت، خودکار به صفحهٔ معرفی افزونه لینک بخورد. (اختیاری است — می‌توانید رد شوید.)"
+msgstr ""
+
+#: includes/class-settings.php:366
+msgid "مدیر کل (manage_options)"
+msgstr ""
+
+#: includes/class-dashboard.php:203
+msgid "مدیریت پیشنهاد لینک →"
+msgstr ""
+
+#: includes/class-dashboard.php:337
+msgid "مراحل راه‌اندازی"
+msgstr ""
+
+#: includes/class-dashboard.php:338
+msgid "مرحله ۱"
+msgstr ""
+
+#: includes/class-dashboard.php:339
+msgid "مرحله ۲"
+msgstr ""
+
+#: includes/class-dashboard.php:340
+msgid "مرحله ۳"
+msgstr ""
+
+#: includes/class-dashboard.php:227
+msgid "مشاهدهٔ گزارش کامل →"
+msgstr ""
+
+#: includes/class-report.php:641
+msgid "مقصد: %s"
+msgstr ""
+
+#: includes/class-report.php:454
+msgid "نتیجه پیدا نشد."
+msgstr ""
+
+#: includes/class-dashboard.php:256
+msgid "نسخه افزونه"
+msgstr ""
+
+#: includes/class-dashboard.php:147
+msgid "نمای کلی لینک‌سازی داخلی سایت شما — پیشنهادها، اتولینک و سلامت لینک‌ها."
+msgstr ""
+
+#: includes/class-settings.php:323
+msgid "نوع‌های محتوا و دسته‌هایی که لینکیار باید نادیده بگیرد را مشخص کنید."
+msgstr ""
+
+#: includes/class-settings.php:331
+msgid "نوع‌های محتوای مستثنی"
+msgstr ""
+
+#: includes/class-dashboard.php:358
+msgid "نوع‌های محتوایی که تیک می‌خورند در لینکیار استفاده می‌شوند."
+msgstr ""
+
+#: includes/class-dashboard.php:349
+msgid "نوع‌های محتوایی که می‌خواهید پوشش داده شوند را انتخاب کنید"
+msgstr ""
+
+#: includes/class-settings.php:369
+msgid "نویسنده (edit_posts)"
+msgstr ""
+
+#: includes/class-dashboard.php:242
+msgid "هرگز"
+msgstr ""
+
+#: includes/class-report.php:586
+msgid "همه"
+msgstr ""
+
+#: includes/class-dashboard.php:191
+msgid "همهٔ پست‌ها حداقل یک لینک داخلی دارند. عالیه!"
+msgstr ""
+
+#: includes/class-jalali.php:83
+msgid "همین حالا"
+msgstr ""
+
+#: includes/class-report.php:577
+msgid "هنوز اسکنی انجام نشده است"
+msgstr ""
+
+#: includes/class-assets.php:132
+msgid "هنوز اسکنی انجام نشده است."
+msgstr ""
+
+#: includes/class-autolink.php:236
+msgid "هنوز قانونی تعریف نشده"
+msgstr ""
+
+#: includes/class-autolink.php:249
+#: includes/class-autolink.php:378
+#: includes/class-report.php:605
+#: includes/class-report.php:648
+msgid "وضعیت"
+msgstr ""
+
+#: includes/class-dashboard.php:246
+msgid "وضعیت اتولینک"
+msgstr ""
+
+#: includes/class-dashboard.php:236
+msgid "وضعیت سامانه"
+msgstr ""
+
+#: includes/class-autolink.php:388
+msgid "ویرایش"
+msgstr ""
+
+#: includes/class-settings.php:367
+msgid "ویرایشگر (edit_others_posts)"
+msgstr ""
+
+#: includes/class-settings.php:368
+msgid "ویرایشگر صفحات (edit_pages)"
+msgstr ""
+
+#: includes/class-report.php:678
+msgid "پاک‌سازی گزارش"
+msgstr ""
+
+#: includes/class-assets.php:141
+#: includes/class-dashboard.php:403
+msgid "پایان"
+msgstr ""
+
+#: includes/class-suggestions.php:117
+msgid "پست پیدا نشد."
+msgstr ""
+
+#: includes/class-assets.php:113
+msgid "پستی مرتبط پیدا نشد"
+msgstr ""
+
+#: includes/class-dashboard.php:188
+msgid "پست‌های بدون لینک داخلی"
+msgstr ""
+
+#: includes/class-dashboard.php:158
+msgid "پست‌های دارای لینک داخلی"
+msgstr ""
+
+#: includes/class-report.php:607
+#: includes/class-report.php:656
+msgid "پست‌های مبدأ"
+msgstr ""
+
+#: includes/class-plugin.php:101
+#: includes/class-plugin.php:102
+msgid "پیشنهاد لینک"
+msgstr ""
+
+#: includes/class-settings.php:267
+msgid "پیشنهاد لینک داخلی"
+msgstr ""
+
+#: includes/class-suggestions.php:66
+msgid "پیشنهادهای لینک داخلی"
+msgstr ""
+
+#: includes/class-autolink.php:282
+msgid "پیش‌نمایش:"
+msgstr ""
+
+#: includes/class-settings.php:363
+msgid "کاربران با این نقش به صفحات لینکیار دسترسی دارند."
+msgstr ""
+
+#: includes/class-settings.php:283
+msgid "کاربران با دسترسی ویرایش پست می‌توانند پیشنهادها را ببینند و با یک کلیک لینک درج کنند."
+msgstr ""
+
+#: includes/class-report.php:606
+#: includes/class-report.php:653
+msgid "کد"
+msgstr ""
+
+#: includes/class-dashboard.php:357
+msgid "کدام نوع‌ها را شامل شود؟"
+msgstr ""
+
+#: includes/class-autolink.php:217
+msgid "کل قابلیت اتولینک را روشن/خاموش می‌کند."
+msgstr ""
+
+#: includes/class-assets.php:135
+#: includes/class-autolink.php:113
+#: includes/class-autolink.php:280
+msgid "کلیدواژه را وارد کنید"
+msgstr ""
+
+#: includes/class-autolink.php:246
+#: includes/class-autolink.php:277
+#: includes/class-autolink.php:363
+msgid "کلیدواژه‌ها"
+msgstr ""
+
+#: includes/class-dashboard.php:376
+msgid "کلیدواژه‌ها (جداشده با ویرگول)"
+msgstr ""
+
+#: includes/class-autolink.php:203
+msgid "کلیدواژه‌ها را به‌صورت خودکار به صفحهٔ هدف لینک کنید — بدون تداخل با لینک‌های موجود."
+msgstr ""
+
+#: includes/class-settings.php:268
+msgid "کنترل کنید پیشنهادهای لینک داخلی در ویرایشگر نمایش داده شوند و چند پیشنهاد برگردانده شود."
+msgstr ""
+
+#: includes/class-assets.php:144
+msgid "کپی شد"
+msgstr ""
+
+#: includes/class-assets.php:115
+msgid "کپی لینک"
+msgstr ""
+
+#: includes/class-plugin.php:119
+#: includes/class-plugin.php:120
+msgid "گزارش لینک‌ها"
+msgstr ""
+
+#: includes/class-report.php:543
+msgid "گزارش لینک‌های شکسته"
+msgstr ""
+
+#: includes/class-report.php:482
+msgid "گزارش پاک شد"
+msgstr ""
+
+#: includes/class-autolink.php:297
+msgid "یا آدرس دلخواه:"
+msgstr ""
+
+#: includes/class-autolink.php:290
+msgid "— انتخاب کنید —"
+msgstr ""
+
